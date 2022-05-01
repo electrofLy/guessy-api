@@ -1,0 +1,20 @@
+databaseChangeLog:  
+  -  changeSet:  
+      id:  1  
+      author:  ihristov  
+      changes:  
+        -  createTable:  
+            tableName:  rooms  
+            columns:  
+              -  column:  
+                  name:  id  
+                  type:  int  
+                  autoIncrement:  true  
+                  constraints:  
+                    primaryKey:  true  
+                    nullable:  false  
+              -  column:  
+                  name:  guid  
+                  type:  varchar(36)  
+                  constraints:  
+                    nullable:  false  
