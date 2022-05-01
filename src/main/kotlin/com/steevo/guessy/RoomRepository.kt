@@ -6,7 +6,6 @@ import org.springframework.data.annotation.Id
 import org.springframework.data.relational.core.mapping.Table
 
 interface RoomRepository : CrudRepository<Room, String>{
-
     @Query("select * from rooms")
     fun findRooms(): List<Room>
 }
