@@ -1,0 +1,7 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="server" type="CompoundRunConfigurationType">
+    <toRun name="guessy-server [bootRun]" type="GradleRunConfiguration" />
+    <toRun name="guessy-server [build]" type="GradleRunConfiguration" />
+    <method v="2" />
+  </configuration>
+</component>
